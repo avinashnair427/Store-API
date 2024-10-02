@@ -1,23 +1,18 @@
-# Store API
+Project Title: Store API
 
-A simple backend-only Store API built using Node.js. This API provides functionality to manage and filter products based on various parameters.
+Description:
+This is a simple backend-only Store API built using Node.js. The API provides the ability to retrieve and manipulate a collection of products. It includes features such as product filtering by name, company, price, and rating. Users can also sort the results, choose specific fields to display, and paginate through the product list for better navigation.
 
-## Features
-- **Filter products:** Filter by name, company, price, and rating.
-- **Sort products:** Sort the results by different fields.
-- **Field selection:** Choose specific fields to be displayed in the output.
-- **Pagination:** Supports paginating the results.
+Key Features:
+Get All Products: Retrieve a list of all available products.
+Filtering: Filter products based on name, company, price, and rating.
+Sorting: Sort products by different attributes such as price or rating.
+Field Selection: Select specific fields to be included in the output response.
+Pagination: View products page by page to easily navigate through large datasets.
 
-## Endpoints
-- `GET /api/products` - Fetches all products with filtering, sorting, field selection, and pagination features.
+Technologies Used: Node.js Express.js MongoDB Postman
 
-## Technologies Used
-- Node.js
-- Express.js
-- MongoDB
+Installation:
+Install dependencies: npm install Run the application: npm run start
 
-## Getting Started
-1. Clone the repository.
-2. Install the dependencies:
-   ```bash
-   npm install
+Postman - https://documenter.getpostman.com/view/37946927/2sAXxJjb7K
